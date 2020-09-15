@@ -117,7 +117,7 @@ Just about ALL events was updated, to either support the new logging format or b
 
 `Manage Server`: For welcome/leave channel logging. (read more above) AND for the `sync` command (for Integrations)
 
-# Option Permissions for the bot
+# Optional Permissions for the bot
 `Manage Messages`: Required to delete user's messages 
 `Manage Emojis`:  Required for the `createemoji/ce` command 
 `Manage Roles`: Required for any command that requires the adding or removing of someone's roles.
