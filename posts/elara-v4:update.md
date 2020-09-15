@@ -102,7 +102,7 @@ Just about ALL events was updated, to either support the new logging format or b
 
 ## Commands: Deleted
 1) `rep/rep+, repl` - Not really used much. 
-2) `cc+, cc-, cc=, cchelp` | Replace by: `cc [type] [?command] [?message]`, default type is: `help`
+2) `cc+, cc-, cc=, cchelp` | Replaced by: `cc [type] [?command] [?message]`, default type is: `help`
 3) `docs/d.js, reverse, topinvites/invites, randomuser/ruser, imdb/movie` | Never used
 4) `dbl` | Replaced by: `botlist [type] [@user/id]`
 5) `todo+, todo-, addtodo, removetodo` | Replaced by: `todo [type]`
