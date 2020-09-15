@@ -1,9 +1,8 @@
 # **Elara version 4 Update!**
 
+## Event Logging Changes
 
-# Event Logging Changes
-
-#### Notes
+### Notes
 
 1) Logging now requires 2 permissions: `View Audit Logs, Manage Webhooks` - If the bot doesn't have those two permissions it won't log anything!
 2) An add-on to the first one, the bot switched to webhook logging, but the bot itself doesn't store the webhook URLs. Instead it uses the channel IDs then fetches a webhook in the channel and uses that. (it doesn't get stored in a database)
@@ -110,3 +109,10 @@ Just about ALL events was updated, to either support the new logging format or b
 6) `setrole` | Replaced by: `config [type] (@role/id)`
 7) `setsuggest` | Replaced by: `config suggest.channel #channel` / `config suggest.react1 :emoji:` / `config suggest.react2 :emoji:` 
 
+
+# REQUIRED PERMISSIONS FOR THE BOT
+`View Audit Logs, Manage Webhooks`: For logging, in the channel and server.
+
+`View Channel, Send Messages, Embed Links`: In the channels for commands to work.
+
+`Manage Server`: For welcome/leave channel logging. (read more below)
