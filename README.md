@@ -5,7 +5,7 @@
 | ------------- | ------------- |
 | Elara-v1  | [URL](https://github.com/Elara-Discord-Bots-Archive/Elara-v1)  |
 | Elara-v2  | [URL](https://github.com/Elara-Discord-Bots-Archive/Elara-v2)  |
-| Elara-v3  | 🔐 Private  |
+| Elara-v3+  | 🔐 Private  |
 | Elara Pastebin | [URL](https://github.com/Elara-Discord-Bots-Archive/Elara-Pastebin) |
 | Elara Services | [URL](https://github.com/elara-bots/Elara-Services) |
 | Elara Hooks | [URL](https://github.com/elara-bots/Elara-Hooks) |
