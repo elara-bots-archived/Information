@@ -11,6 +11,7 @@
 5) If you want the bot to log emojis in messages you NEED to have `External Emojis` permission for the `@everyone` role!
 6) For the auto-reactions for suggestions it now has a 10s cooldown and there is a setting to add ignore-roles, so it doesn't react to users with that role(s)
 7) Welcome/Leave channels (logging) now requires (`Manage Server`) permission (to view and log invites that the member used when joining the server)
+8) Suggestion reactions now require: `Add Reactions` and `Use External Emojis` permissions. 
 
 
 ## Added Events
