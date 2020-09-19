@@ -100,7 +100,7 @@ Just about ALL events was updated, to either support the new logging format or b
 
 
 
-## Commands: Deleted
+## Commands: Deleted/Replaced
 1) `rep/rep+, repl` - Not really used much. 
 2) `cc+, cc-, cc=, cchelp` | Replaced by: `cc [type] [?command] [?message]`, default type is: `help`
 3) `docs/d.js, reverse, topinvites/invites, randomuser/ruser, imdb/movie` | Never used
@@ -108,6 +108,7 @@ Just about ALL events was updated, to either support the new logging format or b
 5) `todo+, todo-, addtodo, removetodo` | Replaced by: `todo [type]`
 6) `setrole` | Replaced by: `config [type] (@role/id)`
 7) `setsuggest` | Replaced by: `config suggest.channel #channel` / `config suggest.react1 :emoji:` / `config suggest.react2 :emoji:` 
+8) `reset-server, reset-left-users` | Replaced by: `reset [type] (@user/yes/no)`
 
 
 # REQUIRED PERMISSIONS FOR THE BOT
