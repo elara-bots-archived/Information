@@ -57,6 +57,7 @@ Just about ALL events was updated, to either support the new logging format or b
 16) `button` | Play will you press the button game (locked to NSFW marked channels, due to what could be returned)
 17) `booplb/blb (page)` | Boops now have a leaderboard!, also if you don't wish to have your name listed there, use: `custom optout.boopslb`
 18) `muted/mutes (@user/id or --all)` | Shows everyone currently muted or a certain user's muted information.
+19) `react [message_url] (emoji) (amount)` | You can now pull random users from a reaction on a message! 
 
 ## Commands: Updated
 1) `daily (@user)` | This now supports (`@user`) this will give your daily bonus to the user you mention.
