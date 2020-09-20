@@ -76,7 +76,7 @@ Just about ALL events was updated, to either support the new logging format or b
 15) `npm` | Updated the embed, it also supports version lookup: `npm package@version_number`
 16) `stats` | The look of the embed was updated to look better and show more information.
 17) `info` | Same as ^
-18) `vote (-i/-info)` | It now gives you ALL of the links for the botlist sites to vote and now supports: `-i/-info` flags
+18) `vote (-i/-info)` | It now gives you ALL of the links for the botlist sites to vote and now supports: `-i/-info` flags, you also now get tokens to use for special item(s) in the `e!shop` 
 19) `avatar (@user/id)` | Now includes different formats for the user's avatar.
 20) `dc/discordcolors` | Was updated to `dc [type]` (Example: `dc js`)
 21) `emote` | Updated the looks of the embeds, it now includes different flags: `-url/-link`, `-steal/-create/-gimme`, `-jumbo/-big/-large` (ALSO it now supports normal emojis!, NOTE: -steal/gimme/create requires you to have Manage Emojis permission!)
@@ -111,6 +111,7 @@ Just about ALL events was updated, to either support the new logging format or b
 6) `setrole` | Replaced by: `config [type] (@role/id)`
 7) `setsuggest` | Replaced by: `config suggest.channel #channel` / `config suggest.react1 :emoji:` / `config suggest.react2 :emoji:` 
 8) `reset-server, reset-left-users` | Replaced by: `reset [type] (@user/yes/no)`
+9) `clearsetting` | Replaced by: `config [type] [reset/clear]`
 
 
 # REQUIRED PERMISSIONS FOR THE BOT
