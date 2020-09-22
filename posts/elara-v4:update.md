@@ -6,7 +6,7 @@
 
 1) Logging now requires 2 permissions: `View Audit Logs, Manage Webhooks` - If the bot doesn't have those two permissions it won't log anything!
 2) An add-on to the first one, the bot switched to webhook logging, but the bot itself doesn't store the webhook URLs. Instead it uses the channel IDs then fetches a webhook in the channel and uses that. (it doesn't get stored in a database)
-3) The bot no longer stores messages in memory, that has been switched to the database, the message will be stored up to 2-3 days then it will be deleted from the database (if they wasn't deleted already): Note: The message content is encrypted using (aes256) encryption.
+3) The bot no longer stores messages in memory, that has been switched to the database, the message will be stored up to 1-2 days(**can be changed at any time**) then it will be deleted from the database (if they wasn't deleted already): Note: The message content is encrypted using (aes256) encryption.
 4) If the channel no longer exists, missing permissions/access, it will now clear that setting from that database to avoid erroring out a ton. Which means you'll have to setup that feature AGAIN (there isn't a good way to notify Admins about the issue so it will just reset it and move on)
 5) If you want the bot to log emojis in messages you NEED to have `External Emojis` permission for the `@everyone` role!
 6) For the auto-reactions for suggestions it now has a 10s cooldown and there is a setting to add ignore-roles, so it doesn't react to users with that role(s)
@@ -124,5 +124,7 @@ Just about ALL events was updated, to either support the new logging format or b
 
 # Optional Permissions for the bot
 `Manage Messages`: Required to delete user's messages 
+
 `Manage Emojis`:  Required for the `createemoji/ce` command 
+
 `Manage Roles`: Required for any command that requires the adding or removing of someone's roles.
