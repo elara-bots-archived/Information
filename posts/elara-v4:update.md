@@ -62,7 +62,7 @@ Just about ALL events was updated, to either support the new logging format or b
 ## Commands: Updated
 1) `daily (@user)` | This now supports (`@user`) this will give your daily bonus to the user you mention.
 2) `pay` | This now requires your currency DB entry to be at least an hour old (same as the daily command)
-3) `deposit, withdraw, rob` | The embed was upodated and most of the currency commands now support: `all` and `half`
+3) `deposit, withdraw, rob` | The embed was updated and most of the currency commands now support: `all` and `half`
 4) `work` | Updated the embed to look better/give more information.
 5) `rob` | Without a member provided it will select a random one from the server.
 6) `gif/giphy` Only works in NSFW marked channels, due to what could be returned. (also shows more information now.)
