@@ -23,6 +23,8 @@ Once I get closer to announce it then this information block will be removed.
 `/warn`
 `/purge` 
 
+`/roles` (type: `info` isn't restricted to `Manage Roles`)
+
 #### Info
 `/user`
 `/translate`
