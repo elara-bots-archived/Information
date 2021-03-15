@@ -31,9 +31,11 @@ Once I get closer to announce it then this information block will be removed.
 `/balance`
 `/daily`
 `/rob`
+`/crime`
 `/work`
 `/withdraw`
 `/deposit`
+`/guessnumber`
 
 #### Fun
 `/boop`
