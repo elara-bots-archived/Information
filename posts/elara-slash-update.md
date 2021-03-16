@@ -30,6 +30,7 @@ Once I get closer to announce it then this information block will be removed.
 #### Info
 `/user`
 `/translate`
+`/avatar`
 
 #### Currency
 `/balance`
