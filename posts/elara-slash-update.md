@@ -22,6 +22,8 @@ Once I get closer to announce it then this information block will be removed.
 `/kick`
 `/warn`
 `/purge` 
+`/mute`
+`/unmute`
 
 `/roles` (type: `info` isn't restricted to `Manage Roles`)
 
