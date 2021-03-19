@@ -1,8 +1,3 @@
-# THIS ISN'T THE FULL LIST
-Once I get closer to announce it then this information block will be removed.
-
-
-
 # Elara Slash Command Update
 
 > **Tags** warning, `{silent}` is no longer an option. 
